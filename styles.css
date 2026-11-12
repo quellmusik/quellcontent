@@ -834,3 +834,24 @@ a {
     border-radius: 26px;
   }
 }
+
+.work-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  background: #000;
+}
+
+.work-media.tall {
+  aspect-ratio: 9 / 16;
+}
+
+.work-featured {
+  grid-column: 1 / -1;
+}
+
+.work-featured .work-media {
+  width: min(360px, 82%);
+  margin-inline: auto;
+}
