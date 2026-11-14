@@ -1,8 +1,8 @@
 :root {
-  --ink: #04060b;
-  --charcoal: #070a12;
-  --panel: #0a0f1a;
-  --panel-2: #0f1727;
+  --ink: #000000;
+  --charcoal: #030304;
+  --panel: #07080a;
+  --panel-2: #0b0d11;
   --line: rgba(160, 190, 230, 0.10);
   --text: #edf1f6;
   --muted: #96a3b5;
@@ -193,7 +193,7 @@ a {
   overflow: hidden;
   padding: 74px 0 92px;
   background:
-    radial-gradient(circle at 88% 8%, rgba(255, 102, 92, 0.2), transparent 30rem),
+    radial-gradient(circle at 88% 8%, rgba(110, 168, 216, 0.2), transparent 30rem),
     radial-gradient(circle at 8% 90%, rgba(255, 255, 255, 0.07), transparent 26rem),
     linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
@@ -289,7 +289,7 @@ a {
 .button-coral {
   background: var(--coral);
   color: var(--coral-ink);
-  box-shadow: 0 14px 34px rgba(255, 102, 92, 0.22);
+  box-shadow: 0 14px 34px rgba(110, 168, 216, 0.22);
 }
 
 .button-coral:hover,
@@ -383,7 +383,7 @@ a {
   width: 42px;
   height: 42px;
   place-items: center;
-  border: 1px solid rgba(255, 102, 92, 0.45);
+  border: 1px solid rgba(110, 168, 216, 0.45);
   border-radius: 50%;
   color: var(--coral);
   font-size: 0.82rem;
@@ -407,7 +407,7 @@ a {
   padding: 22px 24px;
   border-left: 5px solid var(--coral);
   border-radius: 0 18px 18px 0;
-  background: rgba(255, 102, 92, 0.09);
+  background: rgba(110, 168, 216, 0.09);
   color: var(--text);
   font-size: clamp(1.08rem, 2vw, 1.35rem);
   font-weight: 800;
@@ -483,7 +483,7 @@ a {
   display: grid;
   place-items: center;
   background:
-    radial-gradient(circle at 50% 42%, rgba(255, 102, 92, 0.16), transparent 11rem),
+    radial-gradient(circle at 50% 42%, rgba(110, 168, 216, 0.16), transparent 11rem),
     var(--panel-2);
 }
 
@@ -606,10 +606,10 @@ a {
   gap: clamp(30px, 6vw, 76px);
   align-items: center;
   padding: clamp(30px, 6vw, 62px);
-  border: 1px solid rgba(255, 102, 92, 0.34);
+  border: 1px solid rgba(110, 168, 216, 0.34);
   border-radius: 34px;
   background:
-    radial-gradient(circle at 92% 0%, rgba(255, 102, 92, 0.22), transparent 24rem),
+    radial-gradient(circle at 92% 0%, rgba(110, 168, 216, 0.22), transparent 24rem),
     linear-gradient(145deg, #22242d, #181a20);
   box-shadow: var(--shadow);
 }
