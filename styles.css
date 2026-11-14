@@ -1,18 +1,18 @@
 :root {
-  --ink: #101216;
-  --charcoal: #17191f;
-  --panel: #1d2028;
-  --panel-2: #242833;
-  --line: rgba(255, 255, 255, 0.12);
-  --text: #f7f5f0;
-  --muted: #b9bdc8;
-  --soft: #d9dce3;
-  --coral: #ff665c;
-  --coral-deep: #e84e47;
-  --coral-ink: #24100f;
-  --radius-lg: 30px;
-  --radius-md: 22px;
-  --shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+  --ink: #04060b;
+  --charcoal: #070a12;
+  --panel: #0a0f1a;
+  --panel-2: #0f1727;
+  --line: rgba(160, 190, 230, 0.10);
+  --text: #edf1f6;
+  --muted: #96a3b5;
+  --soft: #c9d3e0;
+  --coral: #6ea8d8;
+  --coral-deep: #4f8ac2;
+  --coral-ink: #081320;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.6);
   --header-height: 76px;
 }
 
@@ -145,7 +145,7 @@ a {
 
 .primary-nav .nav-cta:hover,
 .primary-nav .nav-cta:focus-visible {
-  background: #ff7a72;
+  background: #9cc4e8;
   color: var(--coral-ink);
 }
 
@@ -213,7 +213,7 @@ a {
   margin-bottom: 34px;
   padding: 18px;
   border-radius: 26px;
-  background: #fff;
+  background: var(--panel);
   box-shadow: var(--shadow);
 }
 
@@ -294,7 +294,7 @@ a {
 
 .button-coral:hover,
 .button-coral:focus-visible {
-  background: #ff7a72;
+  background: #9cc4e8;
 }
 
 .button-outline {
