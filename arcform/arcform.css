@@ -334,6 +334,25 @@ a {
   margin-bottom: 0;
 }
 
+.principal-body {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 48px);
+  align-items: start;
+}
+
+.principal-photo {
+  margin: 0;
+}
+
+.principal-photo img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
 .principal-copy p {
   margin: 0 0 18px;
   color: var(--ink-soft);
@@ -468,6 +487,15 @@ a {
 
   .principal-grid .section-heading {
     margin-bottom: 4px;
+  }
+
+  .principal-body {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .principal-photo img {
+    max-width: 300px;
   }
 }
 
