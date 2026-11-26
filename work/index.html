@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work — Quell Content</title>
+  <meta name="description" content="Sample product-story ads produced by Quell Content — the format and finish of a Pilot Pack, shown on demonstration products.">
+  <link rel="canonical" href="https://quellcontent.com/work/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Quell Content">
+  <meta property="og:url" content="https://quellcontent.com/work/">
+  <meta property="og:title" content="Work — Quell Content">
+  <meta property="og:description" content="Sample product-story ads produced by the studio — the format and finish of a Pilot Pack.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Work — Quell Content">
+  <meta name="twitter:description" content="Sample product-story ads produced by the studio — the format and finish of a Pilot Pack.">
+  <link rel="stylesheet" href="work.css">
+</head>
+<body>
+  <div class="shader" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-wrap">
+      <a class="wordmark" href="https://quellcontent.com/">QUELL&nbsp;CONTENT</a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#pieces">The pieces</a>
+        <a href="https://quellcontent.com/pilot-pack/">The Pilot Pack</a>
+        <a class="nav-cta" href="#start">Start a Pilot Pack</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero compact panel" id="top">
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">Quell Content — Work</p>
+        <h1 class="reveal">The work,<br><span class="accent">as delivered.</span></h1>
+        <p class="hero-sub reveal">Sample ads produced by the studio to show format and finish — the same vertical product-story format a Pilot Pack delivers, made for demonstration products so you can judge the work itself.</p>
+        <p class="hero-cta reveal"><a class="button" href="https://quellcontent.com/pilot-pack/">Commission work like this — the Pilot Pack</a> <a class="button ghost" href="#pieces">Watch the pieces</a></p>
+      </div>
+    </section>
+
+    <div class="band" aria-hidden="true">
+      <div class="band-track">
+        <span>Product-story ads</span><i>·</i><span>Faceless UGC style</span><i>·</i><span>15–30 seconds</span><i>·</i><span>Ready to post</span><i>·</i>
+        <span>Product-story ads</span><i>·</i><span>Faceless UGC style</span><i>·</i><span>15–30 seconds</span><i>·</i><span>Ready to post</span><i>·</i>
+      </div>
+    </div>
+
+    <section class="section panel" id="pieces">
+      <div class="container">
+        <p class="section-label reveal">01 — The pieces</p>
+        <h2 class="reveal">Three finished pieces</h2>
+        <div class="reel">
+          <figure class="frame reveal">
+            <video src="../pilot-pack/assets/velva.mp4" poster="../pilot-pack/assets/velva.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Sample ad: VELVA overnight peel mask"></video>
+            <figcaption>VELVA<span class="fmt">Product-story ad · 18s · faceless UGC style</span></figcaption>
+          </figure>
+          <figure class="frame reveal">
+            <video src="../pilot-pack/assets/chopbox.mp4" poster="../pilot-pack/assets/chopbox.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Sample ad: ChopBox Pro kitchen chopper"></video>
+            <figcaption>ChopBox Pro<span class="fmt">Product-story ad · 15s · faceless UGC style</span></figcaption>
+          </figure>
+          <figure class="frame reveal">
+            <video src="../pilot-pack/assets/lumo.mp4" poster="../pilot-pack/assets/lumo.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Sample ad: LUMO sparkling drink"></video>
+            <figcaption>LUMO<span class="fmt">Product-story ad · 17s · faceless UGC style</span></figcaption>
+          </figure>
+          <figure class="frame frame-empty reveal">
+            <p class="empty-copy">Your product<br>here</p>
+            <figcaption>Smart-home · Tools · Hardware</figcaption>
+            <a class="fill-link" href="https://quellcontent.com/pilot-pack/" aria-label="Start a Pilot Pack"></a>
+          </figure>
+        </div>
+        <p class="section-note reveal">Pieces shown are sample work — demonstration products, produced by the studio to show the format and finish. Your pack is built around your product.</p>
+      </div>
+    </section>
+
+    <section class="section panel start-panel" id="start">
+      <div class="container">
+        <p class="section-label reveal">02 — Start</p>
+        <h2 class="reveal">Start a Pilot Pack</h2>
+        <p class="start-copy reveal">Three ads like these, built around your product — two hook variants each, six finished files, $950 flat, delivered in five business days.</p>
+        <p class="hero-cta reveal">
+          <a class="button" href="https://quellcontent.com/pilot-pack/">See the Pilot Pack</a>
+          <a class="button ghost" href="mailto:quote@quellcontent.com?subject=Pilot%20Pack">quote@quellcontent.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <span class="wordmark small">QUELL&nbsp;CONTENT</span>
+      <span class="footer-note">Faceless product-story ads · <a href="mailto:quote@quellcontent.com">quote@quellcontent.com</a></span>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // Scroll-reveal
+      var items = document.querySelectorAll('.reveal');
+      if (reduce || !('IntersectionObserver' in window)) {
+        items.forEach(function (el) { el.classList.add('in'); });
+      } else {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+          });
+        }, { threshold: 0.15 });
+        items.forEach(function (el) { io.observe(el); });
+      }
+
+      // Scroll progress + shader drift
+      var bar = document.getElementById('progressBar');
+      var root = document.documentElement;
+      var ticking = false;
+      function onScroll() {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(function () {
+          var max = root.scrollHeight - window.innerHeight;
+          var p = max > 0 ? (window.scrollY / max) : 0;
+          if (bar) bar.style.transform = 'scaleX(' + p + ')';
+          root.style.setProperty('--scroll', p.toFixed(4));
+          ticking = false;
+        });
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
+</body>
+</html>
