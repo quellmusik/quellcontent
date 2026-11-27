@@ -1,0 +1,1 @@
+{"client_id":"https://quellcontent.com/tendem-mcp-client.json","client_name":"Kitty Tendem MCP client","grant_types":["authorization_code","refresh_token"],"redirect_uris":["http://127.0.0.1:8911/callback"],"response_types":["code"],"scope":"openid mcp:tools mcp:resources mcp:prompts offline_access","token_endpoint_auth_method":"none"}
